@@ -1,0 +1,129 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #e66f6fe1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #403f3ce9; /* Example color, adjust as needed */
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color:rgb(226, 63, 63);
+}
+
+.btn {
+    background-color: #e7ce7ae1;
+    color: #ff5733; /* Example color, adjust as needed */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu {
+    padding: 50px 0;
+    color: #080202d8;
+    font-size: larger;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.reservations {
+    padding: 50px 0;
+    color:#f4f4f4
+}
+
+.reservations form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reservations input {
+    padding: 10px;
+    border: 1px solid #b6abab;
+    border-radius: 5px;
+}
+
+.contact {
+    padding: 50px 0;
+    color: #f4f4f4;
+}
+
+.contact-info {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: #333;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+body {
+    background-image: url('good.png'); /* Replace with your image path */
+    background-size: cover; /* This ensures the image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;
+  }
